@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Vinculos">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="271dp"
+        app:srcCompat="@drawable/vinculos" />
+    <TextView
+        android:id="@+id/descrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descripcion: "
+        android:textSize="14sp"
+        android:padding="20dp"/>
+    <TextView
+        android:id="@+id/explica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/des_vinculos"
+        android:textSize="14dp"
+        android:padding="20px"/>
+</LinearLayout>
